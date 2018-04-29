@@ -1,4 +1,31 @@
 .container{
     padding-top: 50px;
     padding-bottom: 50px;
+    position: relative
+}
+
+.texto{
+    position: absolute;
+    background-color: rgb(245, 245, 247);
+    height: 100%;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto2{
+    padding-left: 50px;
+    padding-top: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.caja{
+    background-color: rgb(1, 118, 252);
+    height: 80px;
+    width: 100%;
+    position:absolute;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+    font-size: 30px;
+    padding-top: 20px;
 }
